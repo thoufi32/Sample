@@ -20,6 +20,8 @@ public class Sample {
 		txtPass.sendKeys("Hello@123");
 		WebElement btnLogin = driver.findElement(By.name("login"));
 		btnLogin.click();
+		System.out.println("done");
+		System.out.println("done");
 		
 	}
 }
